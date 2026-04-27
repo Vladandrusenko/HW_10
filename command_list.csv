@@ -1,0 +1,52 @@
+    1  history
+    2  git config -- global user.name "Vladandrusenko"
+    3  git config --global user.name "Vladandrusenko"
+    4  git config --global user.email "vladandrusenko@gmail.com"
+    5  git config --global user.name
+    6  cd HW_10
+    7  /d/ Gitproject 
+    8  cd /d/ Gitproject
+    9  cd /d/gitproject
+   10  git clone https://github.com/Vladandrusenko/HW_10.git
+   11  cd HW_10
+   12  pwd
+   13  ls -la
+   14  touch text_ignore.txt
+   15  ls
+   16  echo "text_ignore.txt" >> .gitignore
+   17  cat .gitignore
+   18  git status
+   19  git add
+   20  git add .
+   21  git status
+   22  git commit -m "Add text_ignore.txt to .gitignore"
+   23  touch main_test.txt
+   24  ls git status
+   25  ls
+   26  git status
+   27  git add .
+   28  git status
+   29  git commit -m "Add main_test.txt file"
+   30  git checkout -b develop
+   31  touch develop_text.txt
+   32  git add .
+   33  git commit -m "add empty develop_test.txt in develop branch"
+   34  echo "just a small change" >> develop_test.txt
+   35  cat develop.test.txt
+   36  cat develop_test.txt
+   37  git status
+   38  git add .
+   39  git status
+   40  git commit -m "Add 'just a small change' line to develop_test.txt
+git commit -m Add 'just a small change' line to develope_test.txt
+git commit -m "Add 'just a small change' ;ine to develop_test.txt"
+git status
+
+
+git status
+   41  git commit -m "Add 'just a small change' line to develop_test.txt"
+   42  git checkout main
+   43  git branche
+   44  git branch
+   45  git log
+   46  history>command_list.csv
